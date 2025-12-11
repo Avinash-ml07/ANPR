@@ -3,5 +3,4 @@ ultralytics
 easyocr
 fastAPI
 uvicorn
-streamlit
 sqlalchemy
