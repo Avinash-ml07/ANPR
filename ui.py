@@ -6,7 +6,7 @@ import cv2
 from PIL import Image, ImageTk
 
 # Import your ANPR modules (must be in same folder)
-from core import extract_plate
+from core import detect_plates_in_frame as extract_plate
 from plate_tracker import PlateTracker
 import vehicle_db
 import list_db
@@ -137,6 +137,8 @@ class ANPRGui:
             return
         # Open capture
         self.cap = cv2.VideoCapture(self.video_source)
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
         if not self.cap.isOpened():
             messagebox.showerror("Error", "Unable to open video source.")
             return

@@ -1,6 +1,6 @@
 opencv-python 
 ultralytics 
-easyocr
+pytesseract
 fastAPI
 uvicorn
 sqlalchemy
