@@ -41,7 +41,7 @@ This system is suitable for **parking gates, security checkpoints, gated communi
 - Stored **only once per plate** (no duplicates)  
 - Fields: plate, timestamp, track_id, source  
 
-### 🖥 Streamlit UI
+### 🖥 GUI
 - Live webcam or video file recognition  
 - View confirmed vehicle numbers  
 - Add allowed vehicles  
