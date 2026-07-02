@@ -55,6 +55,6 @@ This system is suitable for **parking gates, security checkpoints, gated communi
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Avinash-ml07/ANPR
-cd ANPR-India
+cd ANPR
 
 
